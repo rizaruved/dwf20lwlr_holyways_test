@@ -1,5 +1,8 @@
 function Navbar() {
-  return <div></div>;
+  return;
+  <div>
+    <h3>Ini navbar</h3>
+  </div>;
 }
 
 export default Navbar;

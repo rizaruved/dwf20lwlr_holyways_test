@@ -1,21 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>Reactive!</h1>
+        <p>This is a react template! Created by Shaprizal Ibrahim.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.taniarascia.com/getting-started-with-react/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn more...
         </a>
       </header>
     </div>

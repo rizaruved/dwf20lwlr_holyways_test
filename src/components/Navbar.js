@@ -8,7 +8,9 @@ function Navbar() {
       <div>
         <img src={Logo} alt="Logo Holyways" />
       </div>
-      <ul>
+      <button>Login</button>
+      <button>Register</button>
+      {/* <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -30,7 +32,7 @@ function Navbar() {
         <li>
           <Link to="/error">Error</Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

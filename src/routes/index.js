@@ -9,20 +9,20 @@ import DonationDetail from "../pages/DonationDetail";
 import ViewFund from "../pages/ViewFund";
 import ErrorPage from "../pages/ErrorPage";
 
--import React from 'react'
+import Navbar from "../components/Navbar";
 
 const Routes = () => {
-    return (
-        <Switch>
-            <Route path="/" exact component={Homepage} />
-            <Route path="/profile" exact component={Profile} />
-            <Route path="/raise-fund" exact component={RaiseFund} />
-            <Route path="/form-fund" exact component={FormFund} />
-            <Route path="/donation-detail/:url" exact component={DonationDetail} />
-            <Route path="/view-fund" exact component={ViewFund} />
-            <Route path="" component={ErrorPage} />
-        </Switch>
-    )
-}
+  return (
+    <Switch>
+      <Route path="/" exact component={Homepage} />
+      <Route path="/profile" exact component={Profile} />
+      <Route path="/raise-fund" exact component={RaiseFund} />
+      <Route path="/form-fund" exact component={FormFund} />
+      <Route path="/donation-detail/:url" exact component={DonationDetail} />
+      <Route path="/view-fund" exact component={ViewFund} />
+      <Route path="" component={ErrorPage} />
+    </Switch>
+  );
+};
 
 export default Routes;

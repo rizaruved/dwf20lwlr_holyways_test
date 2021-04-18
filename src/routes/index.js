@@ -11,7 +11,7 @@ import ErrorPage from "../pages/ErrorPage";
 
 import Navbar from "../components/Navbar";
 
-const Routes = () => {
+const PageRoutes = () => {
   return (
     <div>
       <Navbar />
@@ -28,4 +28,4 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default PageRoutes;

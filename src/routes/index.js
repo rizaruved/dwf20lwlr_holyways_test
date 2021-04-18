@@ -20,7 +20,7 @@ const Routes = () => {
             <Route path="/form-fund" exact component={FormFund} />
             <Route path="/donation-detail/:url" exact component={DonationDetail} />
             <Route path="/view-fund" exact component={ViewFund} />
-            <Route path="/error" exact component={ErrorPage} />
+            <Route path="" component={ErrorPage} />
         </Switch>
     )
 }

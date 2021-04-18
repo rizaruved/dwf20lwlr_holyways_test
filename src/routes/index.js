@@ -22,7 +22,7 @@ const PageRoutes = () => {
         <Route path="/form-fund" exact component={FormFund} />
         <Route path="/donation-detail/:url" exact component={DonationDetail} />
         <Route path="/view-fund" exact component={ViewFund} />
-        <Route path="" component={ErrorPage} />
+        <Route path="/error" component={ErrorPage} />
       </Switch>
     </div>
   );

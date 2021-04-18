@@ -23,7 +23,7 @@ function Navbar() {
         <Link to="/view-fund">View</Link>
       </li>
       <li>
-        <Link to="">Error</Link>
+        <Link to="/error">Error</Link>
       </li>
     </ul>
   );

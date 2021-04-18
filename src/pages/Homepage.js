@@ -1,3 +1,7 @@
-import React from 'react';
+import React from "react";
 
-_rfc
+function Homepage() {
+  return <div>Ini halaman homepage</div>;
+}
+
+export default Homepage;

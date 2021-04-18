@@ -6,3 +6,4 @@ import Profile from "../pages/Profile";
 import RaiseFund from "../pages/RaiseFund";
 import FormFund from "../pages/FormFund";
 import DonationDetail from "../pages/DonationDetail";
+import ViewFund from "../pages/ViewFund";

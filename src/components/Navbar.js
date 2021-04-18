@@ -4,7 +4,10 @@ import Logo from "../assets/holyways-icon.svg";
 
 function Navbar() {
   return (
-    <div className={Styles}>
+    <div className={Styles.header}>
+      <div>
+        <img src={Logo} alt="Logo Holyways" />
+      </div>
       <ul>
         <li>
           <Link to="/">Home</Link>

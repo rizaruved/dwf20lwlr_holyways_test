@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 
 function RaiseFund() {
   return <div>Ini halaman fund raise</div>;

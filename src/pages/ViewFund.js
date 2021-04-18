@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 
 function ViewFund() {
   return <div>Ini halaman view fund</div>;

@@ -14,6 +14,7 @@ import Navbar from "../components/Navbar";
 const Routes = () => {
   return (
     <div>
+      <Navbar />
       <Switch>
         <Route path="/" exact component={Homepage} />
         <Route path="/profile" exact component={Profile} />

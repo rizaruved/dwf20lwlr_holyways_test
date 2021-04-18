@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Styles from "./styles/navbar.module.css";
 import Logo from "../assets/holyways-icon.svg";
 

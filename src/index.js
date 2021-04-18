@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import PageRoutes from "./routes/index";
 
 ReactDOM.render(
   <BrowserRouter>
-    <Router>
-      <PageRoutes />
-    </Router>
+    <PageRoutes />
   </BrowserRouter>,
   document.getElementById("root")
 );
